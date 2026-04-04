@@ -1,3 +1,4 @@
 openhands-sdk
 requests
 python-dotenv
+openhands-ai
