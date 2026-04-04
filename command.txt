@@ -1,0 +1,9 @@
+Just a place to not forget commands :
+
+venv create : python -m venv .venv
+
+
+venv activate : .venv\Scripts\activate
+
+
+venv deactive : deactivate

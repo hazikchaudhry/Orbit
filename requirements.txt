@@ -1,0 +1,3 @@
+openhands-sdk
+requests
+python-dotenv
