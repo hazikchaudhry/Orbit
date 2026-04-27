@@ -1,9 +1,32 @@
-Just a place to not forget commands :
+Just a place to not forget commands:
 
-venv create : python -m venv .venv
+=== Virtual Environment (venv) ===
+
+Create:
+- Windows: python -m venv .venv
+- Mac/Linux: python3 -m venv .venv
+
+Activate:
+- Windows: .venv\Scripts\activate
+- Mac/Linux: source .venv/bin/activate
+
+Deactivate:
+- All OS: deactivate
+
+=== Packages & Requirements (pip) ===
+
+Install a package:
+- pip install <package_name>
+
+Save installed packages to file:
+- pip freeze > requirements.txt
+
+Install packages from file:
+- pip install -r requirements.txt
 
 
-venv activate : .venv\Scripts\activate
-
-
-venv deactive : deactivate
+You can use the terminal tool to explore the codebase before reviewing:
+            - 'ls', 'cat <filename>', 'head/tail <filename>' to inspect files
+            - 'git log' to see commit history
+            - 'git diff' to see changes in more detail
+            Make sure your final review is in your message response, not just terminal output.
